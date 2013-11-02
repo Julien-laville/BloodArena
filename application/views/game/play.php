@@ -3,3 +3,5 @@
 
 <a href="team/configure">Team configuration</a>
 
+<a href="game/sart">Start</a>
+

@@ -6,6 +6,11 @@
 			
 		}
 		
+		public function start() {
+			$match_result = exec("java -jar match.java");
+			$data = array('result' => $match_result);
+			$this->load->view('game/match_result', $data)
+		}
 	}
 
 ?>
